@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 평가·학습 데이터 (대상 문서 포함 — 커밋 금지)
+*.jsonl
+testset*.json
+*_result*.json
+*_report*.json
+data/
+adapter/
+out/
